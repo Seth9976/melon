@@ -1,0 +1,132 @@
+package d6;
+
+public abstract class a {
+    public static final int[] A;
+    public static final int[] B;
+    public static final int[] C;
+    public static final int[] D;
+    public static final int[] E;
+    public static final int[] F;
+    public static final int[] G;
+    public static final int[] H;
+    public static final int[] I;
+    public static final int[] J;
+    public static final int[] K;
+    public static final int[] L;
+    public static final int[] M;
+    public static final int[] N;
+    public static final int[] O;
+    public static final int[] P;
+    public static final int[] Q;
+    public static final int[] R;
+    public static final int[] S;
+    public static final int[] T;
+    public static final int[] U;
+    public static final int[] V;
+    public static final int[] W;
+    public static final int[] X;
+    public static final int[] Y;
+    public static final int[] Z;
+    public static final int[] a;
+    public static final int[] a0;
+    public static final int[] b;
+    public static final int[] b0;
+    public static final int[] c;
+    public static final int[] c0;
+    public static final int[] d;
+    public static final int[] d0;
+    public static final int[] e;
+    public static final int[] e0;
+    public static final int[] f;
+    public static final int[] f0;
+    public static final int[] g;
+    public static final int[] g0;
+    public static final int[] h;
+    public static final int[] h0;
+    public static final int[] i;
+    public static final int[] i0;
+    public static final int[] j;
+    public static final int[] j0;
+    public static final int[] k;
+    public static final int[] l;
+    public static final int[] m;
+    public static final int[] n;
+    public static final int[] o;
+    public static final int[] p;
+    public static final int[] q;
+    public static final int[] r;
+    public static final int[] s;
+    public static final int[] t;
+    public static final int[] u;
+    public static final int[] v;
+    public static final int[] w;
+    public static final int[] x;
+    public static final int[] y;
+    public static final int[] z;
+
+    static {
+        a.a = new int[]{0x10100D4, 0x101048F, 0x1010540, 0x7F040230, 0x7F04025B, 0x7F0403B1, 0x7F0403B2, 0x7F0403B3, 0x7F0405A5};  // attr:elevation
+        a.b = new int[]{0x7F0403AB, 0x7F0403AC, 0x7F0403AD};  // attr:layout_scrollEffect
+        a.c = new int[]{0x7F040053, 0x7F040060, 0x7F04006A, 0x7F04006B, 0x7F04006C, 0x7F04006D, 0x7F04006E, 0x7F040070, 0x7F040071, 0x7F040072, 0x7F040073, 0x7F040074, 0x7F040075, 0x7F040076, 0x7F040077, 0x7F040078, 0x7F040079, 0x7F04007A, 0x7F0402F8, 0x7F0402F9, 0x7F04035A, 0x7F04041E, 0x7F040423, 0x7F0404A0, 0x7F0404A3, 0x7F04069E, 0x7F04069F};  // attr:autoAdjustToWithinGrandparentBounds
+        a.d = new int[]{0x1010139, 0x7F0402EB, 0x7F040310, 0x7F040315, 0x7F040444, 0x7F040553, 0x7F040555, 0x7F040670, 0x7F040673, 0x7F04067A};  // attr:hideAnimationBehavior
+        a.e = new int[]{0x7F040036, 0x7F040068, 0x7F040230, 0x7F040270, 0x7F040271, 0x7F040272, 0x7F040273, 0x7F040274, 0x7F040275, 0x7F040276, 0x7F0402EF, 0x7F040440, 0x7F040481, 0x7F0404AF, 0x7F0404B1, 0x7F0404B2, 0x7F040507};  // attr:addElevationShadow
+        a.f = new int[]{0x1010140, 0x7F0401AE, 0x7F04032F, 0x7F040546, 0x7F04054E};  // attr:compatShadowEnabled
+        a.g = new int[]{0x101011F, 0x1010120, 0x1010440, 0x7F040068, 0x7F040084, 0x7F040085, 0x7F040086, 0x7F040087, 0x7F040088, 0x7F04008A, 0x7F04008B, 0x7F04008C, 0x7F04008D, 0x7F0402C8, 0x7F0403E9, 0x7F0403EA, 0x7F0403EB, 0x7F0404AF, 0x7F0404B1, 0x7F0404B2, 0x7F0404B6, 0x7F040546, 0x7F04054E, 0x7F040552};  // attr:backgroundTint
+        a.h = new int[]{0x101013F, 0x1010140, 0x7F0400C1, 0x7F0400C2, 0x7F0400C3, 0x7F0400C5, 0x7F0400C6, 0x7F0400C7, 0x7F0401BE, 0x7F0401BF, 0x7F0401C1, 0x7F0401C2, 0x7F0401C4};  // attr:cardBackgroundColor
+        a.i = new int[]{0x7F0400C9, 0x7F0400CA, 0x7F0400CB, 0x7F0400CC, 0x7F0400CD, 0x7F0400CE, 0x7F0400CF, 0x7F0400D0, 0x7F0400D1, 0x7F0400D2, 0x7F0400D3};  // attr:carousel_alignment
+        a.j = new int[]{0x1010034, 0x1010095, 0x1010098, 0x10100AB, 0x101011F, 0x101014F, 0x10101E5, 0x7F04010B, 0x7F04010C, 0x7F040110, 0x7F040111, 0x7F040116, 0x7F040117, 0x7F040118, 0x7F04011A, 0x7F04011B, 0x7F04011C, 0x7F04011D, 0x7F04011E, 0x7F04011F, 0x7F040120, 0x7F040125, 0x7F040126, 0x7F040127, 0x7F040129, 0x7F04014D, 0x7F04014E, 0x7F04014F, 0x7F040150, 0x7F040151, 0x7F040152, 0x7F040153, 0x7F04024F, 0x7F0402EC, 0x7F0402FD, 0x7F040301, 0x7F040518, 0x7F040546, 0x7F04054E, 0x7F04055B, 0x7F040614, 0x7F040623};  // attr:checkedIcon
+        a.k = new int[]{0x7F04010A, 0x7F040121, 0x7F040122, 0x7F040123, 0x7F04053B, 0x7F04056E, 0x7F04056F};  // attr:checkedChip
+        a.l = new int[]{0x7F040311, 0x7F040313, 0x7F040314};  // attr:indicatorDirectionCircular
+        a.m = new int[]{0x7F040149, 0x7F04014C};  // attr:clockFaceBackgroundColor
+        a.n = new int[]{0x7F04014A, 0x7F040408, 0x7F04053C};  // attr:clockHandColor
+        a.o = new int[]{0x7F040158, 0x7F040159, 0x7F04015A, 0x7F0401C5, 0x7F04025D, 0x7F04025E, 0x7F04025F, 0x7F040260, 0x7F040261, 0x7F040262, 0x7F040263, 0x7F040264, 0x7F04026E, 0x7F0402C0, 0x7F040422, 0x7F040521, 0x7F040523, 0x7F0405A6, 0x7F04064E, 0x7F040650, 0x7F040651, 0x7F040659, 0x7F04065C, 0x7F040661};  // attr:collapsedTitleGravity
+        a.p = new int[]{0x7F040365, 0x7F040366};  // attr:layout_collapseMode
+        a.q = new int[]{0x7F040157, 0x7F040230, 0x7F040265, 0x7F040266, 0x7F0402EC, 0x7F04055B, 0x7F040565};  // attr:collapsedSize
+        a.r = new int[]{0x7F040082, 0x7F040083};  // attr:behavior_autoHide
+        a.s = new int[]{0x101000E, 0x7F040068, 0x7F040069, 0x7F040095, 0x7F040230, 0x7F04024F, 0x7F040277, 0x7F040278, 0x7F0402EC, 0x7F0402FB, 0x7F040420, 0x7F0404E9, 0x7F040518, 0x7F040546, 0x7F04054E, 0x7F04055B, 0x7F040695};  // attr:backgroundTint
+        a.t = new int[]{0x7F040082};  // attr:behavior_autoHide
+        a.u = new int[]{0x7F040340, 0x7F0403B6};  // attr:itemSpacing
+        a.v = new int[]{0x1010109, 0x1010200, 0x7F0402C3};  // attr:foregroundInsidePadding
+        a.w = new int[]{0x7F0403E9, 0x7F0403EA, 0x7F0403EB, 0x7F0404AF, 0x7F0404B1, 0x7F0404B2, 0x7F0404B4, 0x7F0404B6};  // attr:marginLeftSystemWindowInsets
+        a.x = new int[]{0x7F04030E, 0x7F040312, 0x7F040679};  // attr:indeterminateAnimationType
+        a.y = new int[]{0x7F040061, 0x7F040062, 0x7F040063, 0x7F040064, 0x7F040068};  // attr:backgroundInsetBottom
+        a.z = new int[]{0x1010220, 0x101048C, 0x7F040228, 0x7F040569, 0x7F04056A, 0x7F04056B, 0x7F04056C};  // attr:dropDownBackgroundTint
+        a.A = new int[]{0x10100D4, 0x10101B7, 0x10101B8, 0x10101B9, 0x10101BA, 0x10101E5, 0x7F040068, 0x7F040069, 0x7F0401D1, 0x7F040230, 0x7F0402FC, 0x7F0402FE, 0x7F0402FF, 0x7F040300, 0x7F040302, 0x7F040303, 0x7F040518, 0x7F040546, 0x7F04054E, 0x7F0405A8, 0x7F0405A9, 0x7F040660};  // attr:backgroundTint
+        a.B = new int[]{0x101000E, 0x7F040108, 0x7F04053B, 0x7F04056F};  // attr:checkedButton
+        a.C = new int[]{0x101020D, 0x7F040068, 0x7F0401F1, 0x7F0401F2, 0x7F0401F3, 0x7F0401F4, 0x7F040487, 0x7F0404FA, 0x7F0406C5, 0x7F0406C6, 0x7F0406C7};  // attr:backgroundTint
+        a.D = new int[]{0x10101B7, 0x10101B8, 0x10101B9, 0x10101BA, 0x7F04032C, 0x7F040339, 0x7F04033A, 0x7F040341, 0x7F040342, 0x7F040347};  // attr:itemFillColor
+        a.E = new int[]{0x10101E5, 0x7F0400C4, 0x7F04010B, 0x7F04010D, 0x7F04010E, 0x7F04010F, 0x7F040110, 0x7F040518, 0x7F040546, 0x7F04054E, 0x7F04059E, 0x7F0405A8, 0x7F0405A9};  // attr:cardForegroundColor
+        a.F = new int[]{0x1010107, 0x7F0400B0, 0x7F0400B2, 0x7F0400B4, 0x7F0400B5, 0x7F0400BA, 0x7F040101, 0x7F040112, 0x7F040250, 0x7F040257, 0x7F040697};  // attr:buttonCompat
+        a.G = new int[]{0x7F040208, 0x7F04020D, 0x7F04020E, 0x7F040210, 0x7F04035C};  // attr:dividerColor
+        a.H = new int[]{0x7F0400BA, 0x7F040697};  // attr:buttonTint
+        a.I = new int[]{0x7F040546, 0x7F04054E};  // attr:shapeAppearance
+        a.J = new int[]{0x7F040635, 0x7F040636, 0x7F040637, 0x7F040638, 0x7F040674, 0x7F040675, 0x7F040676};  // attr:thumbIcon
+        a.K = new int[]{0x10104B6, 0x101057F, 0x7F0403B5};  // attr:lineHeight
+        a.L = new int[]{0x1010034, 0x101057F, 0x7F0403B5};  // attr:lineHeight
+        a.M = new int[]{0x7F0403CA, 0x7F0403CC, 0x7F040481, 0x7F0405B4, 0x7F04064F};  // attr:logoAdjustViewBounds
+        a.N = new int[]{0x1010155, 0x1010159, 0x10101A5, 0x7F0403E8, 0x7F040546};  // attr:marginHorizontal
+        a.O = new int[]{0x7F040030, 0x7F040068, 0x7F040230, 0x7F04032A, 0x7F04032B, 0x7F040331, 0x7F040332, 0x7F040336, 0x7F040337, 0x7F040338, 0x7F040344, 0x7F040345, 0x7F040346, 0x7F040347, 0x7F040359, 0x7F04043F};  // attr:activeIndicatorLabelPadding
+        a.P = new int[]{0x7F0402E5, 0x7F040334, 0x7F040441, 0x7F0404AF, 0x7F0404B4, 0x7F0404B6, 0x7F040546, 0x7F04054E};  // attr:headerLayout
+        a.Q = new int[]{0x10100B3, 0x10100D4, 0x10100DD, 0x101011F, 0x7F040098, 0x7F04020D, 0x7F04020E, 0x7F040226, 0x7F040230, 0x7F0402E5, 0x7F04032B, 0x7F04032E, 0x7F040330, 0x7F040331, 0x7F040332, 0x7F040333, 0x7F040338, 0x7F040339, 0x7F04033A, 0x7F04033B, 0x7F04033C, 0x7F04033D, 0x7F04033E, 0x7F04033F, 0x7F040343, 0x7F040345, 0x7F040347, 0x7F040348, 0x7F04043F, 0x7F040546, 0x7F04054E, 0x7F0405AE, 0x7F0405AF, 0x7F0405B0, 0x7F0405B1, 0x7F040669};  // attr:bottomInsetScrimEnabled
+        a.R = new int[]{0x7F040408};  // attr:materialCircleRadius
+        a.S = new int[]{0x7F040445, 0x7F04069D};  // attr:minSeparation
+        a.T = new int[]{0x7F040322};  // attr:insetForeground
+        a.U = new int[]{0x7F040089};  // attr:behavior_overlapTop
+        a.V = new int[]{0x1010034, 0x101014F, 0x1010150, 0x7F040068, 0x7F0401F6, 0x7F0401F8, 0x7F040230, 0x7F0402C2, 0x7F0402ED, 0x7F040481, 0x7F0405A8, 0x7F0405A9, 0x7F04064D};  // attr:backgroundTint
+        a.W = new int[]{0x1010034, 0x10100DA, 0x101011F, 0x101014F, 0x1010150, 0x1010220, 0x1010264, 0x7F040045, 0x7F040046, 0x7F040056, 0x7F04005E, 0x7F040068, 0x7F04014D, 0x7F0401AD, 0x7F0401F7, 0x7F0402CA, 0x7F0402E5, 0x7F0402ED, 0x7F040304, 0x7F04035D, 0x7F0404F5, 0x7F0404F6, 0x7F04052F, 0x7F040530, 0x7F040531, 0x7F0405B2, 0x7F0405BB, 0x7F040696, 0x7F0406A8};  // attr:animateMenuItems
+        a.X = new int[]{0x7F0401CC, 0x7F0401CD, 0x7F0401CE, 0x7F0401CF, 0x7F0401D0, 0x7F0401D2, 0x7F0401D3, 0x7F0401D4, 0x7F0401D5, 0x7F0401D6};  // attr:cornerFamily
+        a.Y = new int[]{0x7F0401BE, 0x7F0401BF, 0x7F0401C0, 0x7F0401C1, 0x7F0401C2, 0x7F0401C3, 0x7F0401C4, 0x7F040546, 0x7F04054E, 0x7F0405A8, 0x7F0405A9};  // attr:contentPadding
+        a.Z = new int[]{0x101011F, 0x1010120, 0x1010440, 0x7F040068, 0x7F040084, 0x7F0401CB, 0x7F040546, 0x7F04054E};  // attr:backgroundTint
+        a.a0 = new int[]{0x101000E, 0x1010024, 0x1010146, 0x10102DE, 0x10102DF, 0x7F0402E3, 0x7F0402E4, 0x7F040357, 0x7F040358, 0x7F040446, 0x7F040632, 0x7F040633, 0x7F040634, 0x7F040639, 0x7F04063A, 0x7F04063B, 0x7F04063F, 0x7F040640, 0x7F040641, 0x7F040642, 0x7F040643, 0x7F040647, 0x7F040648, 0x7F040649, 0x7F040670, 0x7F040671, 0x7F040672, 0x7F040677, 0x7F040678, 0x7F040679};  // attr:haloColor
+        a.b0 = new int[]{0x101011F, 0x7F04002E, 0x7F040049, 0x7F040065, 0x7F040068, 0x7F040069, 0x7F040230, 0x7F04041C, 0x7F040546, 0x7F04054E};  // attr:actionTextColorAlpha
+        a.c0 = new int[]{0x7F040697};  // attr:useMaterialThemeColors
+        a.d0 = new int[]{0x1010002, 0x10100F2, 0x101014F};
+        a.e0 = new int[]{0x7F0405C1, 0x7F0405C2, 0x7F0405C3, 0x7F0405C4, 0x7F0405C5, 0x7F0405C6, 0x7F0405C7, 0x7F0405C8, 0x7F0405C9, 0x7F0405CA, 0x7F0405CB, 0x7F0405CC, 0x7F0405CD, 0x7F0405CE, 0x7F0405CF, 0x7F0405D0, 0x7F0405D1, 0x7F0405D2, 0x7F0405D3, 0x7F0405D4, 0x7F0405D5, 0x7F0405D6, 0x7F0405D8, 0x7F0405D9, 0x7F0405DB, 0x7F0405DC, 0x7F0405DD};  // attr:tabBackground
+        a.f0 = new int[]{0x1010095, 0x1010096, 0x1010097, 0x1010098, 0x101009A, 0x101009B, 0x1010161, 0x1010162, 0x1010163, 0x1010164, 0x10103AC, 0x1010585, 0x7F0402AE, 0x7F0402B8, 0x7F0405E6, 0x7F04061E};  // attr:fontFamily
+        a.g0 = new int[]{0x7F040619};  // attr:textInputLayoutFocusedRectEnabled
+        a.h0 = new int[]{0x101000E, 0x101009A, 0x101011F, 0x101013F, 0x1010150, 0x1010157, 0x101015A, 0x7F04009E, 0x7F04009F, 0x7F0400A0, 0x7F0400A1, 0x7F0400A2, 0x7F0400A3, 0x7F0400A4, 0x7F0400A5, 0x7F0400A6, 0x7F0400A7, 0x7F0400A8, 0x7F0401D9, 0x7F0401DA, 0x7F0401DB, 0x7F0401DC, 0x7F0401DD, 0x7F0401DE, 0x7F0401E4, 0x7F0401E5, 0x7F040244, 0x7F040245, 0x7F040246, 0x7F040247, 0x7F040248, 0x7F040249, 0x7F04024A, 0x7F04024B, 0x7F040251, 0x7F040252, 0x7F040253, 0x7F040254, 0x7F040255, 0x7F040256, 0x7F040258, 0x7F040259, 0x7F04025C, 0x7F0402E7, 0x7F0402E8, 0x7F0402E9, 0x7F0402EA, 0x7F0402F2, 0x7F0402F3, 0x7F0402F4, 0x7F0402F5, 0x7F0404C2, 0x7F0404C3, 0x7F0404C4, 0x7F0404C5, 0x7F0404C6, 0x7F0404D0, 0x7F0404D1, 0x7F0404D2, 0x7F0404E4, 0x7F0404E5, 0x7F0404E6, 0x7F040546, 0x7F04054E, 0x7F040590, 0x7F040591, 0x7F040592, 0x7F040593, 0x7F040594, 0x7F040595, 0x7F040596, 0x7F0405B8, 0x7F0405B9, 0x7F0405BA};  // attr:boxBackgroundColor
+        a.i0 = new int[]{0x1010034, 0x7F04024D, 0x7F04024E};  // attr:enforceMaterialTheme
+        a.j0 = new int[]{0x1010034, 0x1010098, 0x10100D5, 0x10100F6, 0x101013F, 0x1010140, 0x101014F, 0x7F040068, 0x7F04055A};  // attr:backgroundTint
+    }
+}
+

@@ -1,0 +1,66 @@
+package Ac;
+
+import Pc.d;
+import Pc.e;
+import Ua.u;
+import W.p;
+import ie.H;
+import kotlin.coroutines.Continuation;
+import kotlinx.coroutines.CoroutineScope;
+import ne.a;
+import oe.i;
+import we.k;
+import we.n;
+
+public final class b2 extends i implements n {
+    public final e B;
+    public final d D;
+    public final g2 E;
+    public final kotlin.jvm.internal.n G;
+    public final k I;
+    public final p M;
+    public int r;
+    public final boolean w;
+
+    public b2(boolean z, e e0, d d0, g2 g20, k k0, k k1, p p0, Continuation continuation0) {
+        this.w = z;
+        this.B = e0;
+        this.D = d0;
+        this.E = g20;
+        this.G = (kotlin.jvm.internal.n)k0;
+        this.I = k1;
+        this.M = p0;
+        super(2, continuation0);
+    }
+
+    @Override  // oe.a
+    public final Continuation create(Object object0, Continuation continuation0) {
+        return new b2(this.w, this.B, this.D, this.E, ((k)this.G), this.I, this.M, continuation0);
+    }
+
+    @Override  // we.n
+    public final Object invoke(Object object0, Object object1) {
+        return ((b2)this.create(((CoroutineScope)object0), ((Continuation)object1))).invokeSuspend(H.a);
+    }
+
+    @Override  // oe.a
+    public final Object invokeSuspend(Object object0) {
+        a a0 = a.a;
+        switch(this.r) {
+            case 0: {
+                d5.n.D(object0);
+                a2 a20 = new a2(this.I, this.M, this.E, this.D, this.B, 0);
+                this.r = 1;
+                return u.a.c(this.w, ((N1)this.B).a, ((N1)this.B).b, O1.a, this.D, this.E.a, ((k)this.G), a20, this) == a0 ? a0 : H.a;
+            }
+            case 1: {
+                d5.n.D(object0);
+                return H.a;
+            }
+            default: {
+                throw new IllegalStateException("call to \'resume\' before \'invoke\' with coroutine");
+            }
+        }
+    }
+}
+

@@ -1,0 +1,92 @@
+package Ze;
+
+import Je.o;
+import ie.m;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import je.C;
+import je.I;
+import je.n;
+import qf.c;
+
+public abstract class w {
+    public static final c a;
+    public static final c b;
+    public static final c c;
+    public static final c d;
+    public static final c e;
+    public static final c f;
+    public static final c g;
+    public static final c h;
+    public static final c i;
+    public static final Set j;
+    public static final Set k;
+    public static final Set l;
+    public static final Set m;
+    public static final Set n;
+    public static final Set o;
+    public static final Object p;
+    public static final c q;
+
+    static {
+        c c0 = new c("org.jspecify.nullness.Nullable");
+        c c1 = new c("org.jspecify.nullness.NullMarked");
+        w.a = c1;
+        c c2 = new c("org.jspecify.nullness.NullnessUnspecified");
+        c c3 = new c("org.jspecify.annotations.NonNull");
+        c c4 = new c("org.jspecify.annotations.Nullable");
+        c c5 = new c("org.jspecify.annotations.NullMarked");
+        w.b = c5;
+        c c6 = new c("org.jspecify.annotations.NullnessUnspecified");
+        c c7 = new c("org.jspecify.annotations.NullUnmarked");
+        w.c = c7;
+        w.d = new c("javax.annotation.meta.TypeQualifier");
+        w.e = new c("javax.annotation.meta.TypeQualifierNickname");
+        w.f = new c("javax.annotation.meta.TypeQualifierDefault");
+        c c8 = new c("javax.annotation.Nonnull");
+        w.g = c8;
+        c c9 = new c("javax.annotation.Nullable");
+        c c10 = new c("javax.annotation.CheckForNull");
+        w.h = new c("javax.annotation.ParametersAreNonnullByDefault");
+        w.i = new c("javax.annotation.ParametersAreNullableByDefault");
+        w.j = n.A0(new c[]{c8, c10});
+        c c11 = new c("android.annotation.NonNull");
+        c c12 = new c("androidx.annotation.NonNull");
+        c c13 = new c("androidx.annotation.RecentlyNonNull");
+        c c14 = new c("android.support.annotation.NonNull");
+        c c15 = new c("com.android.annotations.NonNull");
+        c c16 = new c("org.checkerframework.checker.nullness.compatqual.NonNullDecl");
+        c c17 = new c("org.checkerframework.checker.nullness.qual.NonNull");
+        c c18 = new c("edu.umd.cs.findbugs.annotations.NonNull");
+        c c19 = new c("io.reactivex.annotations.NonNull");
+        c c20 = new c("io.reactivex.rxjava3.annotations.NonNull");
+        c c21 = new c("org.eclipse.jdt.annotation.NonNull");
+        c c22 = new c("lombok.NonNull");
+        c c23 = new c("jakarta.annotation.Nonnull");
+        Set set0 = n.A0(new c[]{v.h, c3, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, c22, c23});
+        w.k = set0;
+        c c24 = new c("android.annotation.Nullable");
+        c c25 = new c("androidx.annotation.Nullable");
+        c c26 = new c("androidx.annotation.RecentlyNullable");
+        c c27 = new c("android.support.annotation.Nullable");
+        c c28 = new c("com.android.annotations.Nullable");
+        c c29 = new c("org.checkerframework.checker.nullness.compatqual.NullableDecl");
+        c c30 = new c("org.checkerframework.checker.nullness.qual.Nullable");
+        c c31 = new c("edu.umd.cs.findbugs.annotations.Nullable");
+        c c32 = new c("edu.umd.cs.findbugs.annotations.PossiblyNull");
+        c c33 = new c("edu.umd.cs.findbugs.annotations.CheckForNull");
+        c c34 = new c("io.reactivex.annotations.Nullable");
+        c c35 = new c("io.reactivex.rxjava3.annotations.Nullable");
+        c c36 = new c("org.eclipse.jdt.annotation.Nullable");
+        c c37 = new c("jakarta.annotation.Nullable");
+        Set set1 = n.A0(new c[]{v.i, c0, c4, c9, c10, c24, c25, c26, c27, c28, c29, c30, c31, c32, c33, c34, c35, c36, c37});
+        w.l = set1;
+        w.m = n.A0(new c[]{c2, c6});
+        I.L(I.L(I.L(I.L(I.K(I.K(new LinkedHashSet(), set0), set1), c8), c1), c5), c7);
+        w.n = n.A0(new c[]{v.k, v.l});
+        w.o = n.A0(new c[]{v.j, v.m});
+        w.p = C.S(new m[]{new m(v.c, o.t), new m(v.d, o.w), new m(v.e, o.m), new m(v.f, o.x)});
+        w.q = new c("kotlin.annotations.jvm.UnderMigration");
+    }
+}
+

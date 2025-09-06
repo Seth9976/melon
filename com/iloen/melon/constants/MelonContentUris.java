@@ -1,0 +1,331 @@
+package com.iloen.melon.constants;
+
+import android.content.ContentProvider;
+import android.content.ContentValues;
+import android.database.Cursor;
+import android.net.Uri;
+
+public class MelonContentUris extends ContentProvider {
+    public static final Uri A0;
+    public static final Uri B;
+    public static final Uri B0;
+    public static final Uri C0;
+    public static final Uri D;
+    public static final Uri D0;
+    public static final Uri E;
+    public static final Uri E0;
+    public static final Uri F0;
+    public static final Uri G;
+    public static final Uri G0;
+    public static final Uri H0;
+    public static final Uri I;
+    public static final Uri I0;
+    public static final Uri J0;
+    public static final Uri K0;
+    public static final Uri L0;
+    public static final Uri M;
+    public static final Uri M0;
+    public static final Uri N;
+    public static final Uri N0;
+    public static final Uri O0;
+    public static final Uri P0;
+    public static final Uri Q0;
+    public static final Uri R0;
+    public static final Uri S;
+    public static final Uri S0;
+    public static final Uri T;
+    public static final Uri T0;
+    public static final Uri U0;
+    public static final Uri V;
+    public static final Uri V0;
+    public static final Uri W;
+    public static final Uri W0;
+    public static final Uri X;
+    public static final Uri X0;
+    public static final Uri Y;
+    public static final Uri Y0;
+    public static final Uri Z;
+    public static final Uri Z0;
+    public static final Uri a;
+    public static final Uri a1;
+    public static final Uri b;
+    public static final Uri b0;
+    public static final Uri b1;
+    public static final Uri c;
+    public static final Uri c0;
+    public static final Uri c1;
+    public static final Uri d;
+    public static final Uri d0;
+    public static final Uri d1;
+    public static final Uri e;
+    public static final Uri e0;
+    public static final Uri e1;
+    public static final Uri f;
+    public static final Uri f0;
+    public static final Uri g;
+    public static final Uri g0;
+    public static final Uri h;
+    public static final Uri h0;
+    public static final Uri i;
+    public static final Uri i0;
+    public static final Uri j;
+    public static final Uri j0;
+    public static final Uri k;
+    public static final Uri k0;
+    public static final Uri l;
+    public static final Uri l0;
+    public static final Uri m;
+    public static final Uri m0;
+    public static final Uri n;
+    public static final Uri n0;
+    public static final Uri o;
+    public static final Uri o0;
+    public static final Uri p0;
+    public static final Uri q0;
+    public static final Uri r;
+    public static final Uri r0;
+    public static final Uri s0;
+    public static final Uri t0;
+    public static final Uri u0;
+    public static final Uri v0;
+    public static final Uri w;
+    public static final Uri w0;
+    public static final Uri x0;
+    public static final Uri y0;
+    public static final Uri z0;
+
+    static {
+        Uri uri0 = Uri.parse("content://com.iloen.melon.content.uri");
+        Uri.withAppendedPath(uri0, "playlists");
+        MelonContentUris.a = Uri.withAppendedPath(uri0, "albums");
+        Uri uri1 = Uri.withAppendedPath(uri0, "artists");
+        MelonContentUris.b = uri1;
+        MelonContentUris.c = Uri.withAppendedPath(uri0, "artistslisten");
+        MelonContentUris.d = Uri.withAppendedPath(uri0, "songs");
+        Uri.withAppendedPath(uri0, "videos");
+        MelonContentUris.e = Uri.withAppendedPath(uri0, "photos");
+        Uri.withAppendedPath(uri0, "news");
+        MelonContentUris.f = Uri.withAppendedPath(uri0, "melontv");
+        MelonContentUris.g = Uri.withAppendedPath(uri0, "comments");
+        Uri.withAppendedPath(uri0, "aztalk");
+        MelonContentUris.h = Uri.withAppendedPath(uri0, "searchandadd");
+        MelonContentUris.i = Uri.withAppendedPath(uri0, "playlistsearchandadd");
+        MelonContentUris.j = Uri.withAppendedPath(uri0, "like");
+        Uri.withAppendedPath(uri0, "theme");
+        Uri.withAppendedPath(uri0, "story");
+        MelonContentUris.k = Uri.withAppendedPath(uri0, "booklet");
+        MelonContentUris.l = Uri.withAppendedPath(uri0, "slook");
+        Uri.withAppendedPath(uri0, "login");
+        Uri uri2 = Uri.withAppendedPath(uri0, "mainmenu");
+        Uri.withAppendedPath(uri2, "userprofile");
+        Uri.withAppendedPath(uri2, "newnotice");
+        Uri uri3 = Uri.withAppendedPath(uri0, "main");
+        Uri uri4 = Uri.withAppendedPath(uri3, "foru");
+        Uri.withAppendedPath(uri4, "remind");
+        Uri.withAppendedPath(uri4, "recommend");
+        Uri.withAppendedPath(uri4, "now");
+        Uri.withAppendedPath(uri4, "dna");
+        Uri.withAppendedPath(uri4, "situation");
+        Uri.withAppendedPath(uri4, "situationHistory");
+        Uri.withAppendedPath(uri4, "banner");
+        MelonContentUris.m = Uri.withAppendedPath(uri4, "selfrecommend");
+        Uri.withAppendedPath(uri4, "selfrecommendsonglist");
+        Uri.withAppendedPath(uri4, "recommendcontentlist");
+        Uri.withAppendedPath(uri4, "selfdj");
+        Uri.withAppendedPath(uri4, "selfdjweather");
+        Uri.withAppendedPath(uri4, "matched_song");
+        MelonContentUris.n = Uri.withAppendedPath(uri3, "music");
+        Uri.withAppendedPath(uri3, "video");
+        Uri.withAppendedPath(uri3, "feed_home");
+        MelonContentUris.o = Uri.withAppendedPath(uri4, "tasteartist");
+        MelonContentUris.r = Uri.withAppendedPath(uri4, "tastesong");
+        MelonContentUris.w = Uri.withAppendedPath(uri4, "mixmakermain");
+        MelonContentUris.B = Uri.withAppendedPath(uri4, "mixmakerkeywordselect");
+        MelonContentUris.D = Uri.withAppendedPath(uri4, "mixmakerplaylist");
+        MelonContentUris.E = Uri.withAppendedPath(uri4, "mixmakerplaylistbysongids");
+        Uri.withAppendedPath(uri3, "chart_home");
+        Uri.withAppendedPath(uri3, "melondj_today");
+        Uri.withAppendedPath(uri3, "justmusic_just");
+        Uri.withAppendedPath(uri3, "kids_home");
+        Uri.withAppendedPath(uri3, "melontv");
+        Uri.withAppendedPath(uri3, "24hits");
+        Uri uri5 = Uri.withAppendedPath(uri0, "melondj");
+        Uri.withAppendedPath(uri5, "home_main");
+        Uri.withAppendedPath(uri5, "today");
+        Uri.withAppendedPath(uri5, "lounge");
+        Uri.withAppendedPath(uri5, "taghub_top");
+        Uri.withAppendedPath(uri5, "taghub_bottom");
+        Uri.withAppendedPath(uri5, "tag_search");
+        Uri.withAppendedPath(uri5, "theme_genre");
+        Uri.withAppendedPath(uri5, "regular_series");
+        Uri.withAppendedPath(uri5, "power");
+        Uri uri6 = Uri.withAppendedPath(uri5, "brand");
+        Uri.withAppendedPath(uri6, "video");
+        Uri.withAppendedPath(uri6, "magazine");
+        Uri.withAppendedPath(uri6, "likeperson");
+        Uri.withAppendedPath(uri6, "follower");
+        Uri.withAppendedPath(uri6, "cast");
+        Uri.withAppendedPath(uri6, "recommend_artist");
+        Uri.withAppendedPath(uri6, "inform");
+        Uri.withAppendedPath(uri6, "recm_song");
+        Uri.withAppendedPath(uri6, "playlist");
+        Uri.withAppendedPath(Uri.withAppendedPath(uri5, "melgun"), "show_all_djplaylist");
+        Uri uri7 = Uri.withAppendedPath(uri0, "mymusic");
+        MelonContentUris.G = uri7;
+        Uri uri8 = Uri.withAppendedPath(uri7, "music_dna");
+        MelonContentUris.I = Uri.withAppendedPath(uri7, "music_dna_my_chart");
+        MelonContentUris.M = Uri.withAppendedPath(uri8, "music_dna");
+        MelonContentUris.N = Uri.withAppendedPath(uri7, "locker");
+        Uri.withAppendedPath(uri7, "mylog");
+        MelonContentUris.S = Uri.withAppendedPath(uri7, "like");
+        MelonContentUris.T = Uri.withAppendedPath(uri7, "like_edit");
+        MelonContentUris.V = Uri.withAppendedPath(uri7, "recent");
+        MelonContentUris.W = Uri.withAppendedPath(uri7, "many");
+        MelonContentUris.X = Uri.withAppendedPath(uri7, "playlist");
+        MelonContentUris.Y = Uri.withAppendedPath(uri7, "djplaylist");
+        MelonContentUris.Z = Uri.withAppendedPath(uri7, "djpicklist");
+        MelonContentUris.b0 = Uri.withAppendedPath(uri7, "playlist_edit");
+        MelonContentUris.c0 = Uri.withAppendedPath(uri7, "fan_artist");
+        MelonContentUris.d0 = Uri.withAppendedPath(uri7, "received_present");
+        Uri.withAppendedPath(uri7, "dj_act");
+        MelonContentUris.e0 = Uri.withAppendedPath(uri7, "my_comment");
+        MelonContentUris.f0 = Uri.withAppendedPath(uri7, "lyric_highlight");
+        MelonContentUris.g0 = Uri.withAppendedPath(uri7, "profile_station");
+        Uri uri9 = Uri.withAppendedPath(uri7, "series_inform");
+        MelonContentUris.h0 = Uri.withAppendedPath(uri9, "select");
+        MelonContentUris.i0 = Uri.withAppendedPath(uri9, "detail");
+        Uri.withAppendedPath(uri9, "edit");
+        MelonContentUris.j0 = Uri.withAppendedPath(uri9, "make");
+        Uri.withAppendedPath(uri7, "live_setting");
+        MelonContentUris.k0 = Uri.withAppendedPath(uri7, "feed_logs");
+        Uri uri10 = Uri.withAppendedPath(uri0, "newmusic");
+        MelonContentUris.l0 = Uri.withAppendedPath(uri10, "album");
+        MelonContentUris.m0 = Uri.withAppendedPath(uri10, "mv");
+        Uri uri11 = Uri.withAppendedPath(uri0, "melon_chart");
+        MelonContentUris.n0 = Uri.withAppendedPath(uri11, "top100");
+        MelonContentUris.o0 = Uri.withAppendedPath(uri11, "genre");
+        MelonContentUris.p0 = Uri.withAppendedPath(uri11, "theme");
+        MelonContentUris.q0 = Uri.withAppendedPath(uri11, "age");
+        MelonContentUris.r0 = Uri.withAppendedPath(uri11, "artist");
+        MelonContentUris.s0 = Uri.withAppendedPath(uri11, "hottrack_list");
+        MelonContentUris.t0 = Uri.withAppendedPath(uri11, "streaming_card");
+        MelonContentUris.u0 = Uri.withAppendedPath(uri11, "report");
+        Uri uri12 = Uri.withAppendedPath(uri0, "genremusic");
+        Uri.withAppendedPath(uri0, "gui_type1");
+        Uri.withAppendedPath(uri0, "gui_type2");
+        Uri.withAppendedPath(uri0, "gui_type3");
+        Uri.withAppendedPath(uri0, "gui_type4");
+        Uri.withAppendedPath(uri0, "gui_type5");
+        Uri.withAppendedPath(uri0, "gui_type6");
+        Uri.withAppendedPath(uri0, "hot_track");
+        MelonContentUris.v0 = Uri.withAppendedPath(uri0, "more_artist");
+        MelonContentUris.w0 = Uri.withAppendedPath(uri0, "more_masterpiece");
+        MelonContentUris.x0 = Uri.withAppendedPath(uri0, "more_new_song");
+        MelonContentUris.y0 = Uri.withAppendedPath(uri0, "more_playlist");
+        MelonContentUris.z0 = Uri.withAppendedPath(uri0, "more_intro");
+        MelonContentUris.A0 = Uri.withAppendedPath(uri12, "artist_detail");
+        MelonContentUris.B0 = Uri.withAppendedPath(uri12, "label_detail");
+        Uri uri13 = Uri.withAppendedPath(uri0, "friend");
+        MelonContentUris.C0 = Uri.withAppendedPath(uri13, "following");
+        MelonContentUris.D0 = Uri.withAppendedPath(uri13, "follower");
+        MelonContentUris.E0 = Uri.withAppendedPath(uri13, "add");
+        MelonContentUris.F0 = Uri.withAppendedPath(uri13, "search");
+        Uri uri14 = Uri.withAppendedPath(uri0, "other_friend");
+        MelonContentUris.G0 = Uri.withAppendedPath(uri14, "following");
+        MelonContentUris.H0 = Uri.withAppendedPath(uri14, "follower");
+        MelonContentUris.I0 = Uri.withAppendedPath(uri13, "friend_search_and_select");
+        Uri.withAppendedPath(uri0, "melon_radio");
+        Uri uri15 = Uri.withAppendedPath(uri0, "playlist");
+        MelonContentUris.J0 = uri15;
+        Uri.withAppendedPath(uri15, "detail");
+        Uri uri16 = Uri.withAppendedPath(uri0, "playlist_artist");
+        MelonContentUris.K0 = uri16;
+        MelonContentUris.L0 = Uri.withAppendedPath(uri16, "detail");
+        Uri uri17 = Uri.withAppendedPath(uri0, "playlist_mix");
+        MelonContentUris.M0 = uri17;
+        MelonContentUris.N0 = Uri.withAppendedPath(uri17, "detail");
+        Uri uri18 = Uri.withAppendedPath(uri0, "playlist_dj");
+        MelonContentUris.O0 = uri18;
+        MelonContentUris.P0 = Uri.withAppendedPath(uri18, "detail");
+        Uri.withAppendedPath(uri18, "related");
+        MelonContentUris.Q0 = Uri.withAppendedPath(uri1, "nowplayinginform");
+        MelonContentUris.R0 = Uri.withAppendedPath(uri1, "nowplaying");
+        MelonContentUris.S0 = Uri.withAppendedPath(uri1, "artistpick");
+        MelonContentUris.T0 = Uri.withAppendedPath(uri1, "topic");
+        Uri uri19 = Uri.withAppendedPath(uri0, "melonkids");
+        Uri uri20 = Uri.withAppendedPath(uri19, "home");
+        Uri.withAppendedPath(uri20, "theme");
+        Uri.withAppendedPath(uri20, "banner");
+        Uri.withAppendedPath(uri19, "video");
+        Uri.withAppendedPath(uri19, "audio");
+        Uri.withAppendedPath(uri19, "character");
+        Uri uri21 = Uri.withAppendedPath(uri19, "characterdetail");
+        Uri.withAppendedPath(uri21, "album");
+        Uri.withAppendedPath(uri21, "song");
+        Uri.withAppendedPath(uri21, "video");
+        Uri uri22 = Uri.withAppendedPath(uri0, "melonsports");
+        Uri.withAppendedPath(uri22, "home");
+        Uri.withAppendedPath(uri22, "theme");
+        Uri.withAppendedPath(uri22, "myplan");
+        Uri uri23 = Uri.withAppendedPath(uri22, "detail");
+        Uri.withAppendedPath(uri23, "playlist");
+        Uri.withAppendedPath(uri23, "theme");
+        Uri.withAppendedPath(uri23, "myplan");
+        Uri.withAppendedPath(uri22, "play");
+        Uri uri24 = Uri.withAppendedPath(uri0, "melon_liveat");
+        Uri.withAppendedPath(uri24, "cast_list");
+        Uri.withAppendedPath(uri24, "tag_list");
+        Uri.withAppendedPath(uri24, "home");
+        Uri.withAppendedPath(uri3, "melon_liveat_home");
+        Uri uri25 = Uri.withAppendedPath(uri0, "station");
+        MelonContentUris.U0 = uri25;
+        MelonContentUris.V0 = Uri.withAppendedPath(uri25, "station_program");
+        MelonContentUris.W0 = Uri.withAppendedPath(uri25, "episode");
+        MelonContentUris.X0 = Uri.withAppendedPath(uri0, "home_music");
+        Uri.withAppendedPath(uri0, "home_station");
+        Uri.withAppendedPath(uri0, "home_search");
+        Uri uri26 = Uri.withAppendedPath(uri0, "home_library");
+        MelonContentUris.Y0 = uri26;
+        Uri uri27 = Uri.withAppendedPath(uri26, "profile");
+        MelonContentUris.Z0 = uri27;
+        MelonContentUris.a1 = Uri.withAppendedPath(uri27, "edit");
+        Uri uri28 = Uri.withAppendedPath(uri0, "video");
+        MelonContentUris.b1 = Uri.withAppendedPath(uri28, "info");
+        Uri.withAppendedPath(uri28, "chat");
+        Uri uri29 = Uri.withAppendedPath(uri28, "preview");
+        MelonContentUris.c1 = uri29;
+        MelonContentUris.d1 = Uri.withAppendedPath(uri29, "banner");
+        MelonContentUris.e1 = Uri.withAppendedPath(uri0, "trend_short_form");
+    }
+
+    @Override  // android.content.ContentProvider
+    public final int delete(Uri uri0, String s, String[] arr_s) {
+        return 0;
+    }
+
+    @Override  // android.content.ContentProvider
+    public final String getType(Uri uri0) {
+        return null;
+    }
+
+    @Override  // android.content.ContentProvider
+    public final Uri insert(Uri uri0, ContentValues contentValues0) {
+        return null;
+    }
+
+    @Override  // android.content.ContentProvider
+    public final boolean onCreate() {
+        return false;
+    }
+
+    @Override  // android.content.ContentProvider
+    public final Cursor query(Uri uri0, String[] arr_s, String s, String[] arr_s1, String s1) {
+        return null;
+    }
+
+    @Override  // android.content.ContentProvider
+    public final int update(Uri uri0, ContentValues contentValues0, String s, String[] arr_s) {
+        return 0;
+    }
+}
+

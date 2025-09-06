@@ -1,0 +1,30 @@
+package A8;
+
+public final class x implements G {
+    public static final x a;
+
+    static {
+        x.a = new x();  // 初始化器: Ljava/lang/Object;-><init>()V
+    }
+
+    // 检测为 Lambda 实现
+    @Override  // A8.G
+    public final String a() [...]
+
+    // 去混淆评级： 低(20)
+    @Override
+    public final boolean equals(Object object0) {
+        return this == object0 ? true : object0 instanceof x;
+    }
+
+    @Override
+    public final int hashCode() {
+        return 0x1A24C5BB;
+    }
+
+    @Override
+    public final String toString() {
+        return "IdAndPwd";
+    }
+}
+

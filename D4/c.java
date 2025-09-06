@@ -1,0 +1,58 @@
+package D4;
+
+import androidx.room.H;
+import kotlin.coroutines.Continuation;
+import kotlinx.coroutines.CoroutineScope;
+import ne.a;
+import oe.i;
+import we.k;
+import we.n;
+
+public final class c extends i implements n {
+    public final boolean B;
+    public final boolean D;
+    public final k E;
+    public int r;
+    public final H w;
+
+    public c(H h0, Continuation continuation0, k k0, boolean z, boolean z1) {
+        this.w = h0;
+        this.B = z;
+        this.D = z1;
+        this.E = k0;
+        super(2, continuation0);
+    }
+
+    @Override  // oe.a
+    public final Continuation create(Object object0, Continuation continuation0) {
+        return new c(this.w, continuation0, this.E, this.B, this.D);
+    }
+
+    @Override  // we.n
+    public final Object invoke(Object object0, Object object1) {
+        return ((c)this.create(((CoroutineScope)object0), ((Continuation)object1))).invokeSuspend(ie.H.a);
+    }
+
+    @Override  // oe.a
+    public final Object invokeSuspend(Object object0) {
+        a a0 = a.a;
+        switch(this.r) {
+            case 0: {
+                d5.n.D(object0);
+                boolean z = (!this.w.inCompatibilityMode$room_runtime_release() || !this.w.inTransaction()) && this.B;
+                b b0 = new b(this.w, null, this.E, z, this.D);
+                this.r = 1;
+                Object object1 = this.w.useConnection$room_runtime_release(this.D, b0, this);
+                return object1 == a0 ? a0 : object1;
+            }
+            case 1: {
+                d5.n.D(object0);
+                return object0;
+            }
+            default: {
+                throw new IllegalStateException("call to \'resume\' before \'invoke\' with coroutine");
+            }
+        }
+    }
+}
+

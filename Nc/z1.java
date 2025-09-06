@@ -1,0 +1,32 @@
+package Nc;
+
+import kotlin.jvm.internal.q;
+
+public final class z1 implements B1 {
+    public final v1 a;
+
+    public z1(v1 v10) {
+        q.g(v10, "genreSongUiState");
+        super();
+        this.a = v10;
+    }
+
+    @Override
+    public final boolean equals(Object object0) {
+        if(this == object0) {
+            return true;
+        }
+        return object0 instanceof z1 ? q.b(this.a, ((z1)object0).a) : false;
+    }
+
+    @Override
+    public final int hashCode() {
+        return this.a.hashCode();
+    }
+
+    @Override
+    public final String toString() {
+        return "OnClickThumbNail(genreSongUiState=" + this.a + ")";
+    }
+}
+

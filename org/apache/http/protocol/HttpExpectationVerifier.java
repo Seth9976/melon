@@ -1,0 +1,10 @@
+package org.apache.http.protocol;
+
+import org.apache.http.HttpRequest;
+import org.apache.http.HttpResponse;
+
+@Deprecated
+public interface HttpExpectationVerifier {
+    void verify(HttpRequest arg1, HttpResponse arg2, HttpContext arg3);
+}
+

@@ -1,0 +1,14 @@
+package com.bumptech.glide.request;
+
+import com.bumptech.glide.load.DataSource;
+import com.bumptech.glide.load.engine.GlideException;
+import com.bumptech.glide.load.engine.Resource;
+
+public interface ResourceCallback {
+    Object getLock();
+
+    void onLoadFailed(GlideException arg1);
+
+    void onResourceReady(Resource arg1, DataSource arg2, boolean arg3);
+}
+

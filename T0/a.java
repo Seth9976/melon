@@ -1,0 +1,18 @@
+package t0;
+
+import kotlin.jvm.internal.q;
+import pe.b;
+
+public enum a {
+    SHOW_ORIGINAL,
+    SHOW_TRANSLATED;
+
+    public static final a[] c;
+
+    static {
+        a.c = arr_a;
+        q.g(arr_a, "entries");
+        new b(arr_a);
+    }
+}
+

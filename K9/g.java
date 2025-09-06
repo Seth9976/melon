@@ -1,0 +1,19 @@
+package k9;
+
+public enum g {
+    NP_ROOT,
+    NP_CHILD,
+    SP_PLAYLIST_RECENT,
+    SP_PLAYLIST_LIKE,
+    SP_PLAYLIST_MY,
+    SP_PLAYLIST_DJ,
+    SP_SONGS_AUTOMIX,
+    SP_SONGS_ARTIST,
+    SP_SONGS_RECENT,
+    SP_SONGS_LIKE,
+    SP_SONGS_MY,
+    SP_SONGS_DJ,
+    NONE;
+
+}
+

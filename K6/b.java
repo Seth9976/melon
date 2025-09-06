@@ -1,0 +1,6 @@
+package k6;
+
+public interface b {
+    int getItemCount();
+}
+

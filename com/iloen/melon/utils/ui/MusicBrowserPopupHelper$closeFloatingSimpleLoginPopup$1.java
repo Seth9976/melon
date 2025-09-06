@@ -1,0 +1,119 @@
+package com.iloen.melon.utils.ui;
+
+import Ra.d;
+import com.iloen.melon.net.v6x.response.FloatingBannerRes.RESPONSE.BANNER.BANON;
+import com.melon.data.database.entity.BannerPopupEntity;
+import e1.u;
+import ie.H;
+import kotlin.Metadata;
+import kotlin.coroutines.Continuation;
+import kotlin.jvm.internal.q;
+import kotlinx.coroutines.BuildersKt;
+import kotlinx.coroutines.CoroutineScope;
+import kotlinx.coroutines.Dispatchers;
+import ne.a;
+import oe.e;
+import oe.i;
+import va.e0;
+import va.o;
+import we.n;
+
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0002\u001A\u00020\u0001*\u00020\u0000H\n¢\u0006\u0004\b\u0002\u0010\u0003"}, d2 = {"Lkotlinx/coroutines/CoroutineScope;", "Lie/H;", "<anonymous>", "(Lkotlinx/coroutines/CoroutineScope;)V"}, k = 3, mv = {2, 2, 0})
+@e(c = "com.iloen.melon.utils.ui.MusicBrowserPopupHelper$closeFloatingSimpleLoginPopup$1", f = "MusicBrowserPopupHelper.kt", l = {454}, m = "invokeSuspend")
+final class MusicBrowserPopupHelper.closeFloatingSimpleLoginPopup.1 extends i implements n {
+    public final BANON B;
+    public int r;
+    public final MusicBrowserPopupHelper w;
+
+    public MusicBrowserPopupHelper.closeFloatingSimpleLoginPopup.1(MusicBrowserPopupHelper musicBrowserPopupHelper0, BANON floatingBannerRes$RESPONSE$BANNER$BANON0, Continuation continuation0) {
+        this.w = musicBrowserPopupHelper0;
+        this.B = floatingBannerRes$RESPONSE$BANNER$BANON0;
+        super(2, continuation0);
+    }
+
+    @Override  // oe.a
+    public final Continuation create(Object object0, Continuation continuation0) {
+        return new MusicBrowserPopupHelper.closeFloatingSimpleLoginPopup.1(this.w, this.B, continuation0);
+    }
+
+    @Override  // we.n
+    public Object invoke(Object object0, Object object1) {
+        return this.invoke(((CoroutineScope)object0), ((Continuation)object1));
+    }
+
+    public final Object invoke(CoroutineScope coroutineScope0, Continuation continuation0) {
+        return ((MusicBrowserPopupHelper.closeFloatingSimpleLoginPopup.1)this.create(coroutineScope0, continuation0)).invokeSuspend(H.a);
+    }
+
+    @Override  // oe.a
+    public final Object invokeSuspend(Object object0) {
+        a a0 = a.a;
+        switch(this.r) {
+            case 0: {
+                d5.n.D(object0);
+                com.iloen.melon.utils.ui.MusicBrowserPopupHelper.closeFloatingSimpleLoginPopup.1.1 musicBrowserPopupHelper$closeFloatingSimpleLoginPopup$1$10 = new n(this.B, null) {
+                    public final BANON B;
+                    public int r;
+                    public final MusicBrowserPopupHelper w;
+
+                    {
+                        this.w = musicBrowserPopupHelper0;
+                        this.B = floatingBannerRes$RESPONSE$BANNER$BANON0;
+                        super(2, continuation0);
+                    }
+
+                    @Override  // oe.a
+                    public final Continuation create(Object object0, Continuation continuation0) {
+                        return new com.iloen.melon.utils.ui.MusicBrowserPopupHelper.closeFloatingSimpleLoginPopup.1.1(this.w, this.B, continuation0);
+                    }
+
+                    @Override  // we.n
+                    public Object invoke(Object object0, Object object1) {
+                        return this.invoke(((CoroutineScope)object0), ((Continuation)object1));
+                    }
+
+                    public final Object invoke(CoroutineScope coroutineScope0, Continuation continuation0) {
+                        return ((com.iloen.melon.utils.ui.MusicBrowserPopupHelper.closeFloatingSimpleLoginPopup.1.1)this.create(coroutineScope0, continuation0)).invokeSuspend(H.a);
+                    }
+
+                    @Override  // oe.a
+                    public final Object invokeSuspend(Object object0) {
+                        a a0 = a.a;
+                        switch(this.r) {
+                            case 0: {
+                                d5.n.D(object0);
+                                d d0 = MusicBrowserPopupHelper.access$getBannerPopupUseCase(this.w);
+                                BannerPopupEntity bannerPopupEntity0 = new BannerPopupEntity();
+                                bannerPopupEntity0.setMemberKey(u.v(((e0)o.a()).j()));
+                                bannerPopupEntity0.setId("FLOATING_SIMPLE_LOGIN");
+                                String s = new com.google.gson.n().k(this.B);
+                                q.f(s, "toJson(...)");
+                                bannerPopupEntity0.setBanOn(s);
+                                bannerPopupEntity0.setPopupType("FLOATING_SIMPLE_LOGIN");
+                                this.r = 1;
+                                return d0.c(bannerPopupEntity0, this) == a0 ? a0 : H.a;
+                            }
+                            case 1: {
+                                d5.n.D(object0);
+                                return H.a;
+                            }
+                            default: {
+                                throw new IllegalStateException("call to \'resume\' before \'invoke\' with coroutine");
+                            }
+                        }
+                    }
+                };
+                this.r = 1;
+                return BuildersKt.withContext(Dispatchers.getIO(), musicBrowserPopupHelper$closeFloatingSimpleLoginPopup$1$10, this) == a0 ? a0 : H.a;
+            }
+            case 1: {
+                d5.n.D(object0);
+                return H.a;
+            }
+            default: {
+                throw new IllegalStateException("call to \'resume\' before \'invoke\' with coroutine");
+            }
+        }
+    }
+}
+

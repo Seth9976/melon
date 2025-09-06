@@ -1,0 +1,24 @@
+package org.apache.http.impl;
+
+import org.apache.http.ConnectionReuseStrategy;
+import org.apache.http.HeaderIterator;
+import org.apache.http.HttpResponse;
+import org.apache.http.TokenIterator;
+import org.apache.http.protocol.HttpContext;
+
+@Deprecated
+public class DefaultConnectionReuseStrategy implements ConnectionReuseStrategy {
+    public DefaultConnectionReuseStrategy() {
+        throw new RuntimeException("Stub!");
+    }
+
+    public TokenIterator createTokenIterator(HeaderIterator headerIterator0) {
+        throw new RuntimeException("Stub!");
+    }
+
+    @Override  // org.apache.http.ConnectionReuseStrategy
+    public boolean keepAlive(HttpResponse httpResponse0, HttpContext httpContext0) {
+        throw new RuntimeException("Stub!");
+    }
+}
+

@@ -1,0 +1,22 @@
+package jb;
+
+import i.n.i.b.a.s.e.Ga;
+
+public final class c extends oe.c {
+    public int B;
+    public Object r;
+    public final Ga w;
+
+    public c(Ga ga0, oe.c c0) {
+        this.w = ga0;
+        super(c0);
+    }
+
+    @Override  // oe.a
+    public final Object invokeSuspend(Object object0) {
+        this.r = object0;
+        this.B |= 0x80000000;
+        return this.w.j(null, this);
+    }
+}
+

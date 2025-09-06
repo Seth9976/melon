@@ -1,0 +1,84 @@
+package X0;
+
+public abstract class s {
+    public static final w A;
+    public static final w B;
+    public static final w C;
+    public static final w D;
+    public static final w E;
+    public static final w F;
+    public static final w G;
+    public static final w H;
+    public static final w I;
+    public static final w J;
+    public static final w K;
+    public static final w L;
+    public static final w a;
+    public static final w b;
+    public static final w c;
+    public static final w d;
+    public static final w e;
+    public static final w f;
+    public static final w g;
+    public static final w h;
+    public static final w i;
+    public static final w j;
+    public static final w k;
+    public static final w l;
+    public static final w m;
+    public static final w n;
+    public static final w o;
+    public static final w p;
+    public static final w q;
+    public static final w r;
+    public static final w s;
+    public static final w t;
+    public static final w u;
+    public static final w v;
+    public static final w w;
+    public static final w x;
+    public static final w y;
+    public static final w z;
+
+    static {
+        s.a = u.b("ContentDescription", r.h);
+        s.b = u.a("StateDescription");
+        s.c = u.a("ProgressBarRangeInfo");
+        s.d = u.b("PaneTitle", r.n);
+        s.e = u.a("SelectableGroup");
+        s.f = u.a("CollectionInfo");
+        s.g = u.a("CollectionItemInfo");
+        s.h = u.a("Heading");
+        s.i = u.a("Disabled");
+        s.j = u.a("LiveRegion");
+        s.k = u.a("Focused");
+        s.l = u.a("IsContainer");
+        s.m = new w("IsTraversalGroup");
+        s.n = new w("InvisibleToUser", r.k);
+        s.o = new w("HideFromAccessibility", r.j);
+        s.p = new w("ContentType", r.i);
+        s.q = new w("ContentDataType", r.g);
+        s.r = new w("TraversalIndex", r.B);
+        s.s = u.a("HorizontalScrollAxisRange");
+        s.t = u.a("VerticalScrollAxisRange");
+        s.u = u.b("IsPopup", r.l);
+        s.v = u.b("Role", r.o);
+        s.w = new w("TestTag", false, r.r);
+        s.x = new w("LinkTestMarker", false, r.m);
+        s.y = u.b("Text", r.w);
+        s.z = new w("TextSubstitution");
+        s.A = new w("IsShowingTextSubstitution");
+        s.B = u.a("InputText");
+        s.C = u.a("EditableText");
+        s.D = u.a("TextSelectionRange");
+        s.E = u.a("ImeAction");
+        s.F = u.a("Selected");
+        s.G = u.a("ToggleableState");
+        s.H = u.a("Password");
+        s.I = u.a("Error");
+        s.J = new w("IndexForKey");
+        s.K = new w("IsEditable");
+        s.L = new w("MaxTextLength");
+    }
+}
+
