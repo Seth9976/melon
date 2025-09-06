@@ -1,0 +1,11 @@
+# 确保你在仓库的根目录
+# 创建正确的目录（如果 workflows 目录尚不存在）
+mkdir -p .github/workflows
+
+# 将文件移动到正确的目录
+mv .github/workflow/unzip.yml .github/workflows/unzip.yml
+
+# 提交并推送更改
+git add .github/workflows/unzip.yml
+git commit -m "Fix: Correct workflow path"
+git push
